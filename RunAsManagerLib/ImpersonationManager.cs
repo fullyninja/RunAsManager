@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RunAsManagerLib
 {
-    public class Class1
+    public class ImpersonationManager
     {
     }
 }
