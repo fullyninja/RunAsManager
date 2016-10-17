@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<userGroups>
+  <userGroup userName="" domain="" password="">
+    <applicationDetails>
+      <applicationDetail applicationName2="" exePath="" commandLineArgs="" />
+    </applicationDetails>
+  </userGroup>
+</userGroups>

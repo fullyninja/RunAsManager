@@ -50,6 +50,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Configuration\ConfigFileManagerTests.cs" />
+    <Compile Include="Helpers\ConfigHelperTests.cs" />
     <Compile Include="ImpersonationManagerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

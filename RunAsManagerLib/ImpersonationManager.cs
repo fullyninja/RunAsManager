@@ -37,15 +37,12 @@ namespace RunAsManagerLib
                 throw new SecurityException("Logon failed.");
 
             var tempWinId = new WindowsIdentity(userToken);
-            //tempWinId.Dump();
+
             using (var impContent = tempWinId.Impersonate())
             {
                 using (var proc = Process.Start(applicationPath))
                 {
-                    
                 }
-                
-
             }
         }
 
